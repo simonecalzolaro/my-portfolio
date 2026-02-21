@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-panna: #FDF5E6;
+  --font-sans: "Inter", sans-serif;
+  --animate-marquee: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0vw); }
+  100% { transform: translateX(-100%); }
+}
+
+@layer utilities {
+  .perspective {
+    perspective: 1200px;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Vital for iPhone */
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
