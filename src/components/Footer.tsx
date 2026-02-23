@@ -51,7 +51,7 @@ export default function Footer() {
           
           <div className="flex gap-6">
             <a href="#about" className="font-mono text-[8px] uppercase tracking-[0.3em] text-[#FDF5E6]/30 hover:text-[#dc2626] transition-colors">Back_to_top</a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="font-mono text-[8px] uppercase tracking-[0.3em] text-[#FDF5E6]/30 hover:text-[#dc2626] transition-colors">GitHub</a>
+            <a href="https://github.com/simonecalzolaro" target="_blank" rel="noreferrer" className="font-mono text-[8px] uppercase tracking-[0.3em] text-[#FDF5E6]/30 hover:text-[#dc2626] transition-colors">GitHub</a>
           </div>
         </div>
       </div>
