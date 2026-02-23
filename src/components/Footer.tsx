@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
             <div className="space-y-1">
               <span className="text-[#dc2626]">Deployment</span>
-              <p className="text-[#FDF5E6]/60">Vercel / Netlify</p>
+              <p className="text-[#FDF5E6]/60">Vercel</p>
             </div>
             <div className="space-y-1">
               <span className="text-[#dc2626]">Location</span>
