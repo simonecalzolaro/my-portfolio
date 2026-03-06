@@ -50,7 +50,15 @@ export default function Projects() {
       techStack:["Java","HTML","CSS","JavaScript"],
       link:"https://github.com/simonecalzolaro/ProgettoTIW_PlaylistMusicale.git"
 
+    },
+      {title: "Remote Script Executor",
+      category: "Distributed Systems",
+      description: "A high-performance, concurrent client-server system designed to queue, schedule, and execute shell scripts within isolated execution environments. Serving as a foundational baseline, this application is built to be fully customizable and extensible. It emphasizes low-overhead networking, thread-safe state management, and strict host resource protection.",
+      techStack:["Java","Docker","JUnit5"],
+      link:"https://github.com/simonecalzolaro/RemoteExecutor.git"
+
     }
+
   ];
 
   return (
