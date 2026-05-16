@@ -51,7 +51,7 @@ const socials = [
   // ... inside your Contact component ...
 
 <form 
-  action="https://formspree.io/f/mnjbgpdz" // Get this from formspree.io
+  action="https://formspree.io/f/mykorajr" // Get this from formspree.io
   method="POST"
   className="space-y-6"
 >
