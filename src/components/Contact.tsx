@@ -4,7 +4,7 @@ export default function Contact() {
 
 const handleEmailClick = (e: React.MouseEvent) => {
   e.preventDefault();
-  window.location.href = "mailto:simocalzo.business@gmail.com";
+  window.location.href = "mailto:simone.calzolaro.eng@gmail.com";
 };
 
 const socials = [
@@ -129,7 +129,7 @@ const socials = [
               </div>
                  <div className="space-y-2">
                 <span className="text-[#dc2626]">E-mail</span>
-                <p className="text-panna/60">simocalzo.business@gmail.com</p> {/*  */}
+                <p className="text-panna/60">simone.calzolaro.eng@gmail.com</p> {/*  */}
               </div>
             </div>
           </div>
